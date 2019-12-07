@@ -1,8 +1,33 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.tagProj {
+  margin-top: 2px;
+  padding: 3px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+}
+.step.active {
+  opacity: 1;
+}
+
+.stepArrow {
+  fill: green;
+  width: 20px;
 }
