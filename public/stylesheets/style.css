@@ -2,11 +2,28 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+body {
+  background: linear-gradient(to right, #b2d8b2, #FFFFFF);
+}
+
+.mainContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1rem;
+  border-color: #999999;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background-color: azure;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+
 .tagProj {
   margin-top: 2px;
   padding: 3px;
   border-style: solid;
-  border-color: black;
+  border-color: #999999;
   border-width: 1px;
   font-size: large;
   font-weight: bold;
@@ -28,6 +45,6 @@ body {
 }
 
 .stepArrow {
-  fill: green;
+  fill: green !important;
   width: 20px;
 }
